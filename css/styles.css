@@ -18,13 +18,17 @@ html{
 
 .blog{
 /*    background-color: #fffdc9;*/
-    background-image: url(../images/logo.png); 
-    opacity: 0.5;
-    background-size: 75% 75%;
-    background-repeat: no-repeat;
+/*    background-image: url("../images/logo.png");*/
+/*    background-size: 75% 75%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/krispy-kreme-logo.png);
+    background-size: cover;
     background-position: center;
-    min-height:100vh;
-    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .photos img{
