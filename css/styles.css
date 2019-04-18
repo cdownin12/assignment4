@@ -1,0 +1,70 @@
+html{
+    margin: 0;
+    box-sizing: border-box;
+}
+.websiteformat {
+    color: firebrick;
+}
+
+.heading {
+    color: #d90000;
+    text-align: center;
+}
+
+.paragraph {
+    font-family: sans-serif;
+    color: black;
+}
+
+.blog{
+/*    background-color: #fffdc9;*/
+    background-image: url(../images/logo.png); 
+    opacity: 0.5;
+    background-size: 75% 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:100vh;
+    
+}
+
+.photos img{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    }
+
+.photos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; 
+/*    flex-wrap: wrap;*/
+    align-content: center;
+    
+}
+ 
+
+nav ul li a {
+    color:firebrick;
+    text-decoration: none;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+a {
+    color:darkgreen;
+}
+@media screen and (max-width: 40rem) {
+      header, .photos {
+        align-content: center;
+    }
+}
+header {
+    display: flex;
+    align-items: center;
+    flex direction: column;
+    align-items: center;
+    
+}
